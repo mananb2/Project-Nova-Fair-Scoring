@@ -1,0 +1,21 @@
+======= Project Nova: Fairness & Impact Summary =======
+
+Baseline Nova Score Model MAE: 15.396
+
+--- Loan Approval Classification ---
+Approval Threshold (based on median Nova Score): 604.00
+
+**Baseline Approval Model:**
+  - Accuracy: 0.788
+  - Demographic Parity Difference (city_tier): 0.6553
+
+**Fairness-Mitigated Approval Model (ExponentiatedGradient):**
+  - Accuracy: 0.678
+  - Demographic Parity Difference (city_tier): 0.1399
+
+--- Business Impact: Selection Rates by City Tier ---
+           Baseline Selection Rate  Mitigated Selection Rate
+City Tier                                                   
+A                         0.750000                  0.470588
+B                         0.417910                  0.502488
+C                         0.094737                  0.610526
