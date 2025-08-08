@@ -1,0 +1,10 @@
+numpy
+pandas
+Faker
+scikit-learn
+xgboost
+fairlearn
+streamlit
+joblib
+google-generativeai
+plotly
